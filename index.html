@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>js</title>
+  <link rel="stylesheet" href="libs/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="mb-4">Разговор с другом</h1>
+  <div class="I_speak">Покаж свой телефон</div>
+  <div class="sania__speak">Ok</div>
+  <battom class="btn btn-outline-primary mb-3" id="sania" type="buttom">
+    Покажи телефон
+  </battom>
+
+  <div class="card card-body phone-hidden" id="phone">
+    <img src="phone.jpg" alt="" class="sania-phone">
+  </div>
+
+  <h1 class="mb-4">аккордеон</h1>
+  <div class="list-group"></div>
+  <div class="list-group-item list-header" data-name="accordeon-title">
+    block 1
+  </div>
+  <div class="list-group-item list-content hidden">
+    <h5>block1 content</h5>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure, tenetur consequatur perferendis vitae modi
+    voluptate earum corrupti architecto nobis consequuntur aliquam temporibus alias distinctio possimus ipsum
+    exercitationem est iste.
+  </div>
+  <div class="list-group-item list-header" data-name="accordeon-title">
+    block 2
+  </div>
+  <div class="list-group-item list-content hidden">
+    <h5>block 2 content</h5>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure, tenetur consequatur perferendis vitae modi
+    voluptate earum corrupti architecto nobis consequuntur aliquam temporibus alias distinctio possimus ipsum
+    exercitationem est iste.
+  </div>
+  <div class="list-group-item list-header" data-name="accordeon-title">
+    block 3
+  </div>
+  <div class="list-group-item list-content hidden">
+    <h5>block 3 content</h5>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure, tenetur consequatur perferendis vitae modi
+    voluptate earum corrupti architecto nobis consequuntur aliquam temporibus alias distinctio possimus ipsum
+    exercitationem est iste.
+  </div>
+  <div class="list-group-item list-header" data-name="accordeon-title">
+    block 4
+  </div>
+  <div class="list-group-item list-content hidden">
+    <h5>block 4 content</h5>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iure, tenetur consequatur perferendis vitae modi
+    voluptate earum corrupti architecto nobis consequuntur aliquam temporibus alias distinctio possimus ipsum
+    exercitationem est iste.
+  </div>
+
+<h1 class="mb-4">tab</h1>
+
+<ul class="list-group list-group-horizontal-xl mb-3">
+  <li class="list-group-item" data-tab="tab-1">tab 1</li>
+  <li class="list-group-item" data-tab="tab-2">tab 2</li>
+<li class="list-group-item" data-tab="tab-3">tab 3</li>
+</ul> 
+
+<div class="card p-3" data-tab-content id="tab-1">
+  <h3>tab 1</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id ratione iste voluptatibus sint magnam itaque ea. Expedita beatae inventore reiciendis magnam nostrum quis at impedit laudantium corporis quibusdam?</p>
+</div>
+
+<div class="card p-3 hidden" data-tab-content id="tab-2">
+  <h3>tab 2</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id ratione iste voluptatibus sint magnam itaque ea. Expedita beatae inventore reiciendis magnam nostrum quis at impedit laudantium corporis quibusdam?</p>
+</div>
+
+<div class="card p-3 hidden" data-tab-content id="tab-3">
+  <h3>tab 3</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi non id ratione iste voluptatibus sint magnam itaque ea. Expedita beatae inventore reiciendis magnam nostrum quis at impedit laudantium corporis quibusdam?</p>
+</div>
+
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
